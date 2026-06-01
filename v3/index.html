@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blumenfeld Services | Real Estate &amp; Business Consulting</title>
+  <meta name="description" content="Blumenfeld Services — 30+ years of expert advisory in real estate investment, management, and business development. Gold River, California." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html"><img src="../assets/logo.png" alt="Blumenfeld Services" /></a>
+      <button class="nav__toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <nav class="nav" id="nav">
+        <a class="nav__link active" href="index.html">Home</a>
+        <a class="nav__link" href="about.html">About</a>
+        <a class="nav__link" href="services.html">Services</a>
+        <a class="nav__cta" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero — bottom-anchored -->
+    <section class="hero" style="background-image:url('../assets/hero-home.jpg')">
+      <div class="hero__ov" aria-hidden="true"></div>
+      <div class="hero__bar" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero__inner">
+          <span class="eyebrow">Real Estate &amp; Business Consulting</span>
+          <h1>Unlock Your Potential for Success</h1>
+          <p class="hero__lead">Blumenfeld Services is a strategic consulting firm specializing in real estate and business investments. Our comprehensive advisory solutions can help you achieve success in investment, management, and business development.</p>
+          <div class="hero__btns">
+            <a class="btn btn--primary btn--lg" href="about.html">
+              Learn More
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd"/></svg>
+            </a>
+            <a class="btn btn--outline-white btn--lg" href="services.html">Our Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats band -->
+    <section class="section--navy stats-band">
+      <div class="container">
+        <div class="stats-row">
+          <div class="stat-cell">
+            <span class="stat-cell__n">30<sup style="font-size:.55em;vertical-align:super">+</sup></span>
+            <span class="stat-cell__label">Years of Experience</span>
+            <span class="stat-cell__sub">Real estate &amp; business consulting since the 1990s</span>
+          </div>
+          <div class="stat-cell">
+            <span class="stat-cell__n">2</span>
+            <span class="stat-cell__label">Asset Classes</span>
+            <span class="stat-cell__sub">Residential &amp; commercial real estate expertise</span>
+          </div>
+          <div class="stat-cell">
+            <span class="stat-cell__n">100<sup style="font-size:.55em;vertical-align:super">%</sup></span>
+            <span class="stat-cell__label">Client-First</span>
+            <span class="stat-cell__sub">Personalized advisory tailored to your goals</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lead form -->
+    <section class="section section--navy3 lead-band" id="lead-form">
+      <div class="container">
+        <div class="sh sh--left sh--light" style="max-width:none;margin-bottom:28px">
+          <h2>Take the First Step Towards Success</h2>
+          <p class="lead">Tell us about your goals and a member of our team will be in touch.</p>
+        </div>
+        <div class="form-wrap">
+          <form class="form-grid" data-mailto>
+            <div class="fg"><label for="lf-first">First Name</label><input type="text" id="lf-first" name="First Name" /></div>
+            <div class="fg"><label for="lf-last">Last Name</label><input type="text" id="lf-last" name="Last Name" /></div>
+            <div class="fg"><label for="lf-email">Email Address</label><input type="email" id="lf-email" name="Email" /></div>
+            <div class="fg"><label for="lf-phone">Phone Number</label><input type="tel" id="lf-phone" name="Phone" /></div>
+            <div class="fg full"><label for="lf-addr">Property Address</label><input type="text" id="lf-addr" name="Address" /></div>
+            <div class="full" style="display:flex;flex-direction:column;gap:8px">
+              <span style="font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.44)">Property Type</span>
+              <div class="radios">
+                <label><input type="radio" name="Property Type" value="Residential"> Residential</label>
+                <label><input type="radio" name="Property Type" value="Commercial"> Commercial</label>
+              </div>
+            </div>
+            <div class="full" style="display:flex;flex-direction:column;gap:8px">
+              <button class="btn btn--primary" type="submit">Submit Enquiry</button>
+              <p class="form-note">We'll respond within one business day. Your information stays private.</p>
+              <div class="form-status"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose — editorial rows -->
+    <section class="section" aria-labelledby="wc-h">
+      <div class="container">
+        <div class="reasons-head">
+          <div>
+            <span class="eyebrow" style="margin-bottom:10px">Why Choose Us</span>
+            <h2 id="wc-h" style="margin:0">Why Choose Blumenfeld Services?</h2>
+          </div>
+          <a class="btn btn--outline-ink" href="about.html">About Us</a>
+        </div>
+        <div>
+          <div class="reason-row">
+            <span class="reason-row__n">01</span>
+            <h3>Real Estate Investment Expertise</h3>
+            <p>Extensive experience in real estate investment and management. Our team of experts can help you navigate the complex world of real estate and maximize your returns on every investment.</p>
+          </div>
+          <div class="reason-row">
+            <span class="reason-row__n">02</span>
+            <h3>Strategic Business Development</h3>
+            <p>Comprehensive business development solutions that help you achieve success — from market research to financial analysis, our team will help you unlock your full potential for growth.</p>
+          </div>
+          <div class="reason-row">
+            <span class="reason-row__n">03</span>
+            <h3>Maximize Your Returns</h3>
+            <p>Advisory solutions designed to maximize your returns on real estate and business investments. With our expertise and guidance, you can achieve sustainable success and unlock your growth potential.</p>
+          </div>
+          <div class="reason-row">
+            <span class="reason-row__n">04</span>
+            <h3>Personalized, Client-First Approach</h3>
+            <p>We understand that every client is unique. That's why we develop personalized solutions tailored to your specific needs — working with you every step of the way.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Services — editorial list -->
+    <section class="section section--off" aria-labelledby="svc-h">
+      <div class="container">
+        <div class="svc-section-head">
+          <div>
+            <span class="eyebrow" style="margin-bottom:10px">What We Do</span>
+            <h2 id="svc-h" style="margin:0">Our Services</h2>
+          </div>
+          <a class="svc-more" href="services.html">
+            All Services
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" width="13" height="13"><path fill-rule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clip-rule="evenodd"/></svg>
+          </a>
+        </div>
+        <a class="svc-row" href="services.html">
+          <span class="svc-row__n">01</span>
+          <div><h3>Real Estate Investment</h3><p>Identify and capitalize on the best opportunities in residential and commercial markets. From market research to financial analysis, we help you maximize returns.</p></div>
+          <span class="svc-row__arr" aria-hidden="true">→</span>
+        </a>
+        <a class="svc-row" href="services.html">
+          <span class="svc-row__n">02</span>
+          <div><h3>Real Estate Management</h3><p>End-to-end property management, tenant relations, and portfolio optimization — ensuring your investments perform at their best.</p></div>
+          <span class="svc-row__arr" aria-hidden="true">→</span>
+        </a>
+        <a class="svc-row" href="services.html">
+          <span class="svc-row__n">03</span>
+          <div><h3>Business Development &amp; Management</h3><p>Strategic guidance to grow and manage your business — from market research to operational support, we provide comprehensive advisory at every stage.</p></div>
+          <span class="svc-row__arr" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Featured testimonial -->
+    <section class="section section--ink">
+      <div class="container">
+        <div class="testi-feature">
+          <span class="testi-feature__q" aria-hidden="true">&ldquo;</span>
+          <blockquote>
+            <p>"Blumenfeld Services helped me achieve great success in real estate investment. Their expertise and guidance were invaluable."</p>
+            <footer>
+              <cite>
+                <span class="tf-name">Jared K.</span>
+                <span class="tf-sep">—</span>
+                <span class="tf-loc">Roseville, California</span>
+              </cite>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="testi-mini-pair">
+          <blockquote class="testi-mini">
+            <p>"Blumenfeld Services provided me with the strategic business development solutions I needed to grow. I highly recommend them."</p>
+            <cite>Kelly V. — San Francisco, CA</cite>
+          </blockquote>
+          <blockquote class="testi-mini">
+            <p>"Their real estate management solutions helped me maximize my returns and minimize my stress. The best in the business."</p>
+            <cite>Jason T. — Sacramento, CA</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA band -->
+    <section class="cta-band section" style="background-image:url('../assets/cta-building.jpg')">
+      <div class="cta-band__ov" aria-hidden="true"></div>
+      <div class="container">
+        <span class="eyebrow eyebrow--lt">Proven Results</span>
+        <h2>Maximize Your Returns</h2>
+        <p>With our expertise and guidance, you can achieve lasting success in real estate and business investment. Let's build your future together.</p>
+        <div class="cta-btns">
+          <a class="btn btn--primary btn--lg" href="#contact">Get in Touch</a>
+          <a class="btn btn--outline-white btn--lg" href="services.html">Explore Services</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-layout">
+        <div class="footer-brand">
+          <img class="footer-logo" src="../assets/logo.png" alt="Blumenfeld Services" />
+          <p>A strategic consulting firm specializing in real estate and business investments. Expert guidance built on over 30 years of experience.</p>
+          <a href="mailto:Joekara726@gmail.com">Joekara726@gmail.com</a>
+          <address>11230 Gold Express Dr<br>Gold River, CA 95670</address>
+        </div>
+        <nav class="footer-nav-col" aria-label="Footer navigation">
+          <h5>Navigation</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer-form-col">
+          <h5>Send a Message</h5>
+          <form data-mailto>
+            <div class="ff"><label for="ff-n">Name</label><input type="text" id="ff-n" name="Name" /></div>
+            <div class="ff"><label for="ff-e">Email</label><input type="email" id="ff-e" name="Email" /></div>
+            <div class="ff"><label for="ff-m">Message</label><textarea id="ff-m" name="Message" rows="3"></textarea></div>
+            <button class="btn btn--primary" type="submit" style="width:100%;justify-content:center">Send</button>
+            <div class="form-status"></div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Blumenfeld Services. All rights reserved.</span>
+        <span>Gold River, California</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js" defer></script>
+</body>
+</html>
